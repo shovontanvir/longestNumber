@@ -1,7 +1,7 @@
 const points = [1, 40, 100, 5, 25, 10, 108];
 
 
-document.querySelector("#array").innerHTML = "The array is " + points;
+document.querySelector("#array").innerHTML = points;
 
 function numSort(arrayName) {
   for (var i=0; i <= arrayName.length; i++)   {
