@@ -20,6 +20,10 @@ function numSort(arrayName) {
 
 let sorted = numSort(points);
 
-document.querySelector("#sorted").innerHTML = "The sorted array is " + sorted;
 
-document.querySelector("#longest").innerHTML = "The highest number in the array is " + sorted[0];
+function clickSort(){
+    
+    document.querySelector("#sorted").innerHTML = "The sorted array is " + sorted;
+
+    document.querySelector("#longest").innerHTML = "The highest number in the array is " + sorted[0];
+}
